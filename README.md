@@ -68,6 +68,7 @@ Extract and validate images.
 Generate group-stratified splits.
 Train selected backbones with automatic checkpointing (checkpoint.pt).
 Generate comparative XAI heatmaps for test samples.
+
 💡 Explainable AI (XAI) Methods
 
 This pipeline incorporates three visual explanation methods to assess model focus areas:
@@ -75,6 +76,7 @@ This pipeline incorporates three visual explanation methods to assess model focu
 Grad-CAM++: Enhances pixel-level attribution over standard Grad-CAM, suitable for instances with multiple occurrences of a disease symptom.
 Layer-CAM: Produces fine-grained heatmaps by combining activations and gradients from deep layers.
 Eigen-CAM: An activation-based, gradient-free approach using principal components to highlight salient regions.
+
 📁 Output Directory Hierarchy
 
 Plaintext
